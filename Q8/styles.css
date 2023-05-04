@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(215, 248, 215);
+}
+
+.container {
+    width: 700px;
+    height: 600px;
+}
+
+.list {
+    list-style: none;
+}
+
+li {
+    background-color: rgb(4, 102, 85);
+    color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+
+.close {
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: rgb(243, 164, 137);
+}
