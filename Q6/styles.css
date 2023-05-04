@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(225, 129, 50);
+    color: black;
+    font-weight: bold;
+}
+
+
+#hider {
+    padding: 10px;
+    background-color: aquamarine;
+    outline: 0;
+    border: 0;
+}
